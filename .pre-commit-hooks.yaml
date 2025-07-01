@@ -2,5 +2,8 @@
   name: cargo2nix-gen
   description: Generate Cargo.nix file for the current project
   entry: cargo2nix -o
+  args: [ "--locked" ]
   language: system
   verbose: true
+  files: "Cargo.lock"
+  pass_filenames: false
