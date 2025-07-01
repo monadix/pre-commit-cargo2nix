@@ -1,6 +1,6 @@
 - id: cargo2nix-gen
   name: cargo2nix-gen
   description: Generate Cargo.nix file for the current project
-  entry: cargo2nix
+  entry: cargo2nix -o
   language: system
   verbose: true
