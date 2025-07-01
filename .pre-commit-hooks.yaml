@@ -1,0 +1,5 @@
+- id: cargo2nix-gen
+  name: cargo2nix-gen
+  description: Generate Cargo.nix file for the current project
+  entry: cargo2nix
+  language: system
